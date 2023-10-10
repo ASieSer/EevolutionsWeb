@@ -1,0 +1,721 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PokemonBWFont';
+}
+
+#bodyinicio {
+    background-image: url(../images/EEVOLUTIONS2.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    height: 10vh;
+    background-image: url(../images/furret.gif);
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.navegacion {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    background-color:#989FCE;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color:#CCCCCC;
+}
+
+#EeveePrincipal  {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 4px solid;
+    background-color: #989FCE;
+    margin-top: 2vh;
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+
+#fotoEevee {
+    background-color: #CCCCCC;
+    border-top: 3px solid;
+    width: 100%;
+}
+
+#textoEevee {
+    text-decoration: underline;
+}
+
+#estassonevos {
+    font-size: 30px;
+    border-bottom: 4px solid black;
+    background-color: #989FCE;
+    color: #000000;
+    padding: 10px;
+}
+
+.nombresEvoluciones {
+    font-family: 'PokemonBWFont';
+    padding-top: 3px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.divevoluciones {
+    border: 4px solid;
+    /* background-color: #7F7F7F; */
+    background-image: url(../images/EEVOLUTIONSFONDO.jpg);
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.div1 {
+    text-align: center;
+}
+
+.evoluciones1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#miniDivVaporeon {
+    width: 200px;
+    height: 160px;
+    background-image: url(../images/FondosTipos/FondoAgua.jpg);
+    background-size: cover;
+    border: 2px solid;
+}
+
+#miniDivJolteon {
+    width: 200px;
+    height: 160px;
+    background-image: url(../images/FondosTipos/FondoElectrico.jpg);
+    background-size: cover;
+    border: 2px solid;
+}
+
+#miniDivFlareon {
+    width: 200px;
+    height: 160px;
+    background-image: url(../images/FondosTipos/FondoFuego.jpg);
+    background-size: cover;
+    border: 2px solid;
+}
+
+#miniDivLeafeon {
+    width: 200px;
+    height: 160px;
+    background-image: url(../images/FondosTipos/FondoPlanta.jpg);
+    background-size: cover;
+    border: 2px solid;
+}
+
+#miniDivEspeon {
+    width: 200px;
+    height: 160px;
+    background-image: url(../images/FondosTipos/FondoPsiquico.jpg);
+    background-size: cover;
+    border: 2px solid;
+}
+
+#miniDivUmbreon {
+    width: 200px;
+    height: 160px;
+    background-image: url(../images/FondosTipos/FondoSiniestro.jpg);
+    background-size: cover;
+    border: 2px solid;
+}
+
+#miniDivGlaceon {
+    width: 200px;
+    height: 160px;
+    background-image: url(../images/FondosTipos/FondoHielo.jpg);
+    background-size: cover;
+    border: 2px solid;
+}
+
+#miniDivSylveon {
+    width: 200px;
+    height: 160px;
+    background-image: url(../images/FondosTipos/FondoHada.jpg);
+    background-size: cover;
+    border: 2px solid;
+}
+
+.efectosnav {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    height: fit-content;
+    width: 10vw;
+}
+
+.efectosnav:hover {
+    padding: 18px;
+    font-size: 18px;
+    background-color: #5a5e79;
+}
+
+#nav1 {
+    border-left: 2px solid black;
+}
+
+#nav2 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#nav3 {
+    border-right: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #551A8B
+}
+
+a.linknavegacion {
+    color: black ;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#linkFooter:hover {
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(89, 89, 89, 0.959);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 4vh;
+    padding-top: 2vh;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------ ESTILOS ÚNICOS DE LA PÁGINA EFECTO ------------------------------- */
+
+#bodyEfectos {
+    background-image: url(../images/PokeFondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contenedorTituloEfecto {
+    margin-top: 2vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#EeveeSesgado {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    align-items: center;
+    justify-content: center;
+    -ms-transform: skewY(20deg);
+    transform: skewY(20deg);
+}
+
+#TituloEfecto {
+    font-size: 35px;
+    color: white;
+}
+
+#TextoEfecto {
+    font-size: 20px;
+    color: white;
+}
+
+.textoImagenes {
+    color: white;
+}
+
+#EeveeBailongo {
+    width: 300px;
+    height: 300px;
+    border-top: 10px solid red;
+    border-right: 10px solid limegreen;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid yellow;
+}
+
+#EeveeBailongo:hover {
+    width: 350px;
+    height: 350px;
+    border-top: 10px solid yellow;
+    border-right: 10px solid red;
+    border-bottom: 10px solid limegreen;
+    border-left: 10px solid blue;
+}
+
+.ImagenesEfecto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.ImagenesEfecto2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 20vh;
+}
+
+.mask1 {
+    -webkit-mask-image: url(../images/PikachuPNG.png);
+    mask-image: url(../images/PikachuPNG.png);
+    -webkit-mask-size: 70%;
+    mask-size: 70%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.mask1:hover {
+    -webkit-mask-image: url(../images/PikachuPNG.png);
+    mask-image: url(../images/PikachuPNG.png);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    position:relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    width: 250px;
+    height: 250px;
+}
+
+#EeveeRotado {
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+    align-items: center;
+    justify-content: center;
+    -ms-transform: rotate(20deg);
+    transform: rotate(180deg);
+}
+
+#mudkipGIF2 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  50%  {background-color:blue; left:100px; top:100px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+/* ------------------------------ ESTILOS ÚNICOS DE LA PÁGINA EFECTO ------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ---------------------------- ESTILOS ÚNICOS DE LA PÁGINA FORMULARIO ----------------------------- */
+
+#bodyformulario {
+    background-image: url(../images/FondoIniciales.jpg);
+    background-size: 100% 100%;
+}
+
+.contenedorFormulario {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#formulariosIzquierda {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#formulariosDerecha {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#divformulario1 {
+    font-size: 1.8vh;
+    text-align:justify;
+    margin-top: 10vh;
+    padding: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 30vh;
+}
+
+#divformulario2 {
+    font-size: 1.8vh;
+    text-align:justify;
+    padding: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#divformulario3 {
+    font-size: 1.8vh;
+    text-align:justify;
+    margin-top: 10vh;
+    padding: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 30vh;
+}
+
+#divformulario4 {
+    font-size: 1.8vh;
+    text-align:justify;
+    padding: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#fieldset1 {
+    padding: 2vh;
+    border: 2px solid red;
+}
+
+#leyenda1 {
+    color: red;
+}
+
+#fieldset2 {
+    padding: 2vh;
+    border: 2px solid limegreen;
+}
+
+#leyenda2 {
+    color:limegreen;
+}
+
+#fieldset3 {
+    padding: 2vh;
+    border: 2px solid yellow;
+}
+
+#leyenda3 {
+    color: yellow;
+}
+
+#fieldset4 {
+    padding: 2vh;
+    border: 2px solid lightseagreen;
+}
+
+#leyenda4 {
+    color: lightseagreen;
+}
+
+#name {
+    margin-left: 5.5vw;
+}
+
+#surname {
+    margin-left: 4.15vw;
+}
+
+#mail {
+    margin-left: 0.5vw;
+}
+
+#numero {
+    margin-left: 4.3vw;
+}
+
+#nac {
+    margin-left: 0.9vw;
+}
+
+#submitDatosPersonales {
+    text-align: end;
+}
+
+#aficiones {
+    margin-top: 2vh;
+}
+
+#comentarios {
+    margin: 2vh;
+    border: 2px solid lightseagreen;
+}
+
+form {
+    background-color: #000000;
+}
+
+fieldset {
+    /* background-color:#9e9d9d; */
+    color: white;
+}
+
+/* ---------------------------- ESTILOS ÚNICOS DE LA PÁGINA FORMULARIO ----------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------- FUENTES -------------------------------------------- */
+@font-face {
+    font-family: 'PokemonBWFont';
+    src: url(../fonts/pokemon-bw.otf) format('opentype');
+}
+
+/* -------------------------------------------- FUENTES -------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------- MEDIA QUERIES ----------------------------------------- */
+
+@media only screen and (min-width: 1200px) {
+
+    #mudkipGIF {
+        width: 50px;
+        height: 50px;
+    }
+
+    #mudkipGIF2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    header {
+        display: flex;
+        height: fit-content;
+        /*background-color: #396eb9;*/
+        background-image: url(../images/furret.gif);
+        background-size: contain;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav.navegacion {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+        background-color: #989FCE;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .efectosnav {
+        padding: 10px;
+        font-size: 2.5vh;
+        text-align: center;
+        height: fit-content;
+        width: 10vw;
+    }
+    
+    .efectosnav:hover {
+        padding: 10px;
+        font-size: 2.7vh;
+        background-color: #5a5e79;
+    }
+    
+    .divevoluciones {
+        border: px solid;
+        background-color: #7F7F7F;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-bottom: 5vh;
+    }
+
+    #name {
+        margin-left: 6vw;
+    }
+    
+    #surname {
+        margin-left: 5vw;
+    }
+    
+    #mail {
+        margin-left: 0.6vw;
+    }
+    
+    #numero {
+        margin-left: 5.15vw;
+    }
+    
+    #nac {
+        margin-left: 1.1vw;
+    }
+    
+    #fieldset1 {
+        padding: 1vh;
+        border: 2px solid red;
+    }
+    
+    #leyenda1 {
+        color: red;
+    }
+    
+    #fieldset2 {
+        padding: 1vh;
+        border: 2px solid limegreen;
+    }
+    
+    #leyenda2 {
+        color:limegreen;
+    }
+    
+    #fieldset3 {
+        padding: 1vh;
+        border: 2px solid yellow;
+    }
+    
+    #leyenda3 {
+        color: yellow;
+    }
+    
+    #fieldset4 {
+        padding: 1vh;
+        border: 2px solid lightseagreen;
+    }
+    
+    #leyenda4 {
+        color: lightseagreen;
+    }
+    
+    #name {
+        margin-left: 1.5vw;
+        margin-bottom: 5px;
+    }
+    
+    #surname {
+        margin-left: 0.6vw;
+        margin-bottom: 5px;
+    }
+    
+    #mail {
+        margin-left: 0.5vw;
+        margin-bottom: 5px;
+    }
+    
+    #numero {
+        margin-left: 3.85vw;
+        margin-bottom: 5px;
+    }
+    
+    #nac {
+        margin-left: 1vw;
+        margin-bottom: 5px;
+    }
+    
+    #submitDatosPersonales {
+        text-align: end;
+        margin-top: 12px;
+    }
+    
+    #aficiones {
+        margin-top: 2vh;
+    }
+    
+    #pokemonFav {
+        margin-top: 10px;
+    }
+
+    #inicialFav {
+        margin-top: 10px;
+    }
+
+    #legendarioFav {
+        margin-top: 10px;
+    }
+
+    #tipoFav {
+        margin-top: 10px;
+    }
+    
+    
+}
+@media only screen and (min-width: 1900px) {
+    nav.navegacion {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        height: 7vh;
+        background-color: #989FCE;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    
+    .efectosnav {
+        padding: 8px;
+        font-size: 20px;
+        text-align: center;
+        height: fit-content;
+        width: 10vw;
+    }
+    
+    .efectosnav:hover {
+        padding: 10px;
+        font-size: 24px;
+        background-color: #5a5e79;
+    }
+    
+    #name {
+        margin-left: 5.5vw;
+    }
+    
+    #surname {
+        margin-left: 4.6vw;
+    }
+    
+    #mail {
+        margin-left: 1.2vw;
+    }
+    
+    #numero {
+        margin-left: 4.8vw;
+    }
+    
+    #nac {
+        margin-left: 0.8vw;
+    }
+    
+}
+/* -------------------------------------------- MEDIA QUERIES -------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
